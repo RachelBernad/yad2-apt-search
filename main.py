@@ -9,7 +9,7 @@ import datetime
 BOT_TOKEN = '6439284635:AAH9NGsAa4b0JyppNIwyOkHn-J_9Pt4tYkA'
 BOT_CHATID = '-4034284096'
 
-APT_FILE = r'./yad2_apts.pickle'
+APT_FILE = r'/test/yad2_apts.pickle'
 BASE_URL = 'https://gw.yad2.co.il/feed-search-legacy/realestate/rent?rooms=2-4&price=4000-6500&priceOnly=1&forceLdLoad=true&city={ct}&page={pg}'
 CITIES = [
     5000, # Tel Aviv
