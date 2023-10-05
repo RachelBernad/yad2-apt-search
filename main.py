@@ -10,7 +10,7 @@ BOT_TOKEN = '6439284635:AAH9NGsAa4b0JyppNIwyOkHn-J_9Pt4tYkA'
 BOT_CHATID = '-4034284096'
 
 APT_FILE = r'/test/yad2_apts.pickle'
-BASE_URL = 'https://gw.yad2.co.il/feed-search-legacy/realestate/rent?rooms=2-4&price=4000-6500&priceOnly=1&forceLdLoad=true&city={ct}&page={pg}'
+BASE_URL = 'https://gw.yad2.co.il/feed-search-legacy/realestate/rent?rooms=2-4&price=1000-7000&priceOnly=1&forceLdLoad=true&city={ct}&page={pg}'
 CITIES = [
     5000, # Tel Aviv
     8600 # Ramat Gan
@@ -143,9 +143,6 @@ def main():
 
 
 if __name__ == '__main__':
-    import glob
-
-    print(f'RESULTS: {glob.glob("*")}')
     while True:
         main()
         time.sleep(60 * 15) # Every 15 minutes check for new apartments
